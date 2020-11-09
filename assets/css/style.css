@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #37517e;
+  background: #1B1C31;
 }
 
 #preloader:before {
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #37517e;
+  border: 6px solid #1B1C31;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -92,13 +92,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background: #47b2e4;
+  background: #00FFA3;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #209dd8;
+  background: #19FA7D;
   color: #fff;
 }
 
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background-color:#1B1C31;
 }
 
 #header .logo {
@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #47b2e4;
+  color: #00FFA3;
 }
 
 .nav-menu .drop-down ul {
@@ -256,13 +256,13 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
-  border: 2px solid #47b2e4;
+  border: 2px solid #00FFA3;
   font-weight: 600;
 }
 
 .get-started-btn:hover {
-  background: #31a9e1;
-  color: #fff;
+  background: #00FFA3;
+  color: #000;
 }
 
 @media (max-width: 768px) {
@@ -384,8 +384,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
-  background: #37517e;
+  height: 85vh;
+  background: #1B1C31;
 }
 
 #hero .container {
@@ -416,12 +416,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px 0 0 0;
-  color: #fff;
-  background: #47b2e4;
+  color: #000;
+  background: #42fab7;
 }
 
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: #00FFA3;
 }
 
 #hero .btn-watch-video {
@@ -444,11 +444,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-watch-video:hover i {
-  color: #47b2e4;
+  color: #00FFA3;
 }
 
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+
+#hero .submenu{
+  margin-bottom: 5vw;
 }
 
 @media (max-width: 991px) {
@@ -480,6 +485,10 @@ h1, h2, h3, h4, h5, h6 {
   }
   #hero .hero-img img {
     width: 70%;
+  }
+
+  #hero .submenu{
+    margin-bottom: 15vw;
   }
 }
 
@@ -564,7 +573,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #47b2e4;
+  background: #00FFA3;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -647,16 +656,16 @@ section {
   border-radius: 4px;
   transition: 0.3s;
   line-height: 1;
-  color: #47b2e4;
+  color: #00FFA3;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #47b2e4;
+  border: 2px solid #00FFA3;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #47b2e4;
-  color: #fff;
+  background: #00FFA3;
+  color: #000;
   text-decoration: none;
 }
 
@@ -864,6 +873,11 @@ section {
   font-size: 36px;
   transition: 0.3s;
 }
+.services .icon-box:hover .icon i {
+  color: #0BD78D;
+  font-size: 36px;
+  transition: 0.3s;
+}
 
 .services .icon-box h4 {
   font-weight: 500;
@@ -887,7 +901,7 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #47b2e4;
+  color: #0BD78D;
 }
 
 /*--------------------------------------------------------------
@@ -965,7 +979,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #47b2e4;
+  background: #00FFA3;
   color: #fff;
 }
 
