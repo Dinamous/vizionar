@@ -1003,7 +1003,7 @@ section {
   z-index: 3;
   right: 15px;
   transition: all 0.3s;
-  background: rgba(55, 81, 126, 0.8);
+  background: #00FFA3;
   padding: 10px 15px;
 }
 
